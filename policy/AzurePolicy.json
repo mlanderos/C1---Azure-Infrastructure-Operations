@@ -1,0 +1,9 @@
+{
+    "if": {
+        "field": "Microsoft.Resources/tags/tags",
+        "exists": "false"
+    },
+    "then": {
+        "effect": "deny"
+    }
+}
